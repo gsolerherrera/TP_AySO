@@ -1,0 +1,69 @@
+sudo apt update && apt upgrade
+ls
+sudo apt install bzip2
+ls
+cd ./
+ls
+reset
+cleam
+clear
+lsmod | grep vboxguest
+reset
+reebot
+reboot
+power off
+shudown
+shutdown
+shutdown -c
+powerroff
+poweroff
+lsmod | grep vboxguest
+poweroff
+ssh-keygen
+ls
+pwd
+cd
+ls -la
+cd .ssh/
+ls
+ls -la
+cat id_ed25519
+cd
+mkdir repogit
+cd repogit/
+cat $HOME/.ssh/*.pub
+git clone git@github.com:gsolerherrera/TP_AySO.git
+sudo apt install git
+git clone git@github.com:gsolerherrera/TP_AySO.git
+ls
+cd TP_AySO/
+ls
+cat /etc/os-release
+man grep
+grep -i HOME_URL /etc/os-release
+grep home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+git add .
+git config --global user.email "gsolerherrera@gmail.com"
+git config --global user.name "gsolerherrera"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git statusU
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git commit -m "ADD: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Guille 
+División: 315 Turno: Noche 
+EOF
+
+ls
+nano README.md 
+git commit -m "ADD: Añadiendo Readme"
+git push
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
